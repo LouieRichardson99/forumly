@@ -7,7 +7,7 @@ export default function Comment(props) {
   const [user, setUser] = useContext(UserContext);
 
   const handleDelete = () => {
-    axios("http://localhost:3000/api/comment", {
+    axios("api/comment", {
       method: "DELETE",
       data: {
         comment_id: props.commentId,
