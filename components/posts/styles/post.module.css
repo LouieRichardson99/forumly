@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  margin: 0 auto 1rem auto;
+  list-style: none;
+  background: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container_div {
+  padding: 0.8rem;
+}
+
+.container:hover {
+  outline: #49a078 solid thin;
+  outline-width: 2px;
+}
+
+.username_date_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0.7rem 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.content {
+  font-size: 0.9rem;
+}
+
+.author_button_wrapper {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  margin-left: 0.5rem;
+  border-radius: 3px;
+  outline: #49a078 1px solid;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 35rem;
+  }
+}

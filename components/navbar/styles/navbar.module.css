@@ -1,0 +1,61 @@
+.nav_container {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  margin: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.username {
+  display: block;
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  font-weight: 400;
+}
+
+.username_text {
+  margin-right: 6px;
+}
+
+.buttons {
+  margin-top: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (min-width: 600px) {
+  .nav_container {
+    display: flex;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    display: flex;
+    text-align: left;
+  }
+
+  .username {
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+
+  .buttons {
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+}

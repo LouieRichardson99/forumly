@@ -1,0 +1,10 @@
+.container {
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.list_header {
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;
+}

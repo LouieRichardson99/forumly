@@ -1,0 +1,19 @@
+.heading {
+  text-align: center;
+  font-weight: 400;
+}
+
+.icon {
+  margin-right: 0.2rem;
+}
+
+.post_list {
+  margin: 1rem auto 2rem auto;
+  width: 95%;
+}
+
+@media screen and (min-width: 600px) {
+  .post_list {
+    margin-top: 2rem;
+  }
+}

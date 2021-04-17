@@ -1,0 +1,52 @@
+.modal_background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000065;
+}
+
+.modal_div {
+  background-color: #f1f1f1;
+  width: 95%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  padding: 0.8rem;
+}
+
+.icon_wrapper {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.username_date_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 0.8rem 0 0.7rem 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.content {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 600px) {
+  .modal_div {
+    width: 35rem;
+  }
+}

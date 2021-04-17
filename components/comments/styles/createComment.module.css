@@ -1,0 +1,53 @@
+.container {
+  width: 26rem;
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+
+.comment_input {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: white;
+  border: none;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.comment_input:focus {
+  outline: #49a078 solid;
+  border-radius: 2px;
+  outline-width: 2px;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background-color: #49a078;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5px;
+  height: 2rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 26rem;
+  }
+
+  .comment_input {
+    width: 20rem;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .button {
+    width: 6rem;
+    border-radius: 0 5px 5px 0;
+  }
+}

@@ -1,0 +1,109 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  color: #252525;
+  margin: 3rem auto 3rem auto;
+}
+
+.icon {
+  margin-right: 0.2rem;
+}
+
+.heading {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.form_container {
+  margin: 1rem auto 1rem auto;
+  margin: 0 auto 0 auto;
+}
+
+.input_label {
+  display: block;
+  font-size: 0.95rem;
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+
+.title_input {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.title_input:focus {
+  outline: #49a078 solid thin;
+  border-radius: 2px;
+  outline-width: 2px;
+}
+
+.content_input {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 2px;
+  resize: vertical;
+  height: 10rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.content_input:focus {
+  outline: #49a078 solid;
+  border-radius: 2px;
+  outline-width: 2px;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background-color: #49a078;
+  color: white;
+  border: none;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  border-radius: 4px;
+  width: 95%;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+.response_msg {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .form_container {
+    width: 35rem;
+  }
+
+  .input_label {
+    width: 35rem;
+  }
+
+  .title_input {
+    width: 35rem;
+  }
+
+  .content_input {
+    width: 35rem;
+  }
+
+  .button {
+    width: auto;
+    margin: 0;
+  }
+}
