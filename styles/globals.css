@@ -6,6 +6,10 @@
   color: #282828;
 }
 
+html {
+  background-color: #fdfdfd;
+}
+
 .button {
   cursor: pointer;
   font-size: 0.8rem;

@@ -27,7 +27,7 @@ export default function UserPosts() {
                 key={post.post_id}
                 title={post.title}
                 content={post.content}
-                date={post.date}
+                date={post.published_at}
                 user_id={post.user_id}
                 post_id={post.post_id}
               />

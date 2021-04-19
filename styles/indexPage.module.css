@@ -1,0 +1,39 @@
+.about_container {
+  margin: 2rem 0.6rem 1.5rem 0.6rem;
+}
+
+.about_heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.about_body {
+  margin-bottom: 0.8rem;
+}
+
+.about_paragraph {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  text-decoration: none;
+  width: auto;
+  color: white;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  background-color: #383838;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.icon {
+  margin-right: 0.3rem;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .about_container {
+    width: 35rem;
+    margin: 3rem auto 2.8rem auto;
+  }
+}

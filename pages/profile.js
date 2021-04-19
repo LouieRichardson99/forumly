@@ -29,12 +29,16 @@ export default function profile({ isUser }) {
   }, [isUser]);
 
   const handleDelete = () => {
-    axios("api/delete-account", {
-      method: "DELETE",
-    }).then(() => {
-      setUser(null);
-      router.push("/");
-    });
+    if (confirm("Are you sure you want to delete your account?")) {
+      axios("api/delete-account", {
+        method: "DELETE",
+      }).then(() => {
+        setUser(null);
+        router.push("/");
+      });
+    } else {
+      return;
+    }
   };
 
   return (
