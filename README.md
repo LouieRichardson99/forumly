@@ -1,5 +1,7 @@
 # Forumly
 
+![Forumly](https://user-images.githubusercontent.com/60019261/115260125-5fa0bc80-a12a-11eb-9ef1-7385bd4d413f.png)
+
 Forumly is a forum style web application which uses Next.js, CSS, Node.js, MySQL on AWS.
 
 It is hosted on Vercel due to the great compatibility with Next.js.
