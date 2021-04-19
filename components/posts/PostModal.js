@@ -27,7 +27,7 @@ export default function PostModal(props) {
             </p>
           );
         })}
-        <AllComments post_id={props.postId} />
+        <AllComments post_id={props.postId} post_user={props.postUser} />
       </div>
     </div>
   );

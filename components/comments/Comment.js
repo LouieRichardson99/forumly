@@ -21,13 +21,12 @@ export default function Comment(props) {
     <li className={styles.container}>
       <p className={styles.username}>Comment by {props.commentUser}</p>
       <p className={styles.comment}>{props.commentContent}</p>
-      {user
-        ? props.commentUserId == user.user_id && (
-            <button className={styles.delete_button} onClick={handleDelete}>
-              Delete
-            </button>
-          )
-        : null}
+      {(user && props.commentUserId == user.user_id) ||
+      (user && user.username == props.postUser) ? (
+        <button className={styles.delete_button} onClick={handleDelete}>
+          Delete
+        </button>
+      ) : null}
     </li>
   );
 }

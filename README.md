@@ -9,10 +9,6 @@ This is to prevent having to 'prop drill' just to pass down a function to refres
 
 This was a really fun project to work on because I wanted to work with Node.js to develop efficient API endpoints whilst creating CRUD functionality. This led to improving my knowledge about how middleware works in API routes, such as validating the user before allowing to proceed with a API request.
 
-### User Authorisation and Authentication
-
-User auth is achieved by storing usernames and passwords in the MySQL database using bcrypt hashing. The user sessions are handled via Next Iron Session. This is a great package for storing user data in a session so the user doesn't have to sign in again once they have shut down their browser.
-
 ## Features
 
 - User auth with sessions.
@@ -20,3 +16,7 @@ User auth is achieved by storing usernames and passwords in the MySQL database u
 - Comment on posts.
 - Profile page with user information.
 - Delete account.
+
+### User Authorisation and Authentication
+
+User auth is achieved by storing usernames and passwords in the MySQL database using bcrypt hashing. The user sessions are handled via Next Iron Session. This is a great package for storing user data in a session so the user doesn't have to sign in again once they have shut down their browser.

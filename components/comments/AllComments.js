@@ -44,6 +44,7 @@ export default function AllComments(props) {
                 commentContent={comment.comment}
                 commentUserId={comment.user_id}
                 commentId={comment.comment_id}
+                postUser={props.post_user}
                 refreshData={fetchComments}
               />
             );
