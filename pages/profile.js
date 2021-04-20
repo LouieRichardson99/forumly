@@ -6,6 +6,7 @@ import dateformat from "dateformat";
 import { UserContext } from "../context/UserContext";
 import UserPosts from "../components/user/UserPosts";
 import styles from "../styles/profilePage.module.css";
+import Head from "next/head";
 
 export default function profile({ isUser }) {
   const [userData, setUserData] = useState(null);
@@ -43,6 +44,9 @@ export default function profile({ isUser }) {
 
   return (
     <div className={styles.main_container}>
+      <Head>
+        <title>Forumly Profile Page</title>
+      </Head>
       <h2 className={styles.page_header}>
         <i className={`fas fa-user-circle ${styles.icon}`}></i>My Profile
       </h2>
